@@ -1,7 +1,4 @@
 language: java
 install: ant deps
-script:
-	- ant init
-	- git compile
 deploy:
 	skip_cleanup: true
